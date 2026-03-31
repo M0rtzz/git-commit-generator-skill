@@ -1,6 +1,6 @@
 # Git Commit Emoji & Types Dictionary
 
-当生成 Commit Message 时，请严格使用以下列表中的 `value` 字段（包含 Emoji 和类型）：
+When generating a commit message, strictly use the following `emoji + type` pairs:
 
 - ✨ feat: A new feature | 新功能
 - 🚧 wip: Work in progress | 正在开发中
@@ -15,28 +15,28 @@
 - 📸 image: Add or update images | 图像
 - 🔨 script: Add or update scripts or the build system | 脚本
 - 💩 poop: Low-quality code that needs improvement | 写了一些屎一样待优化的代码
-- 💄 ui: Update UI and style files | 更新UI
-- 🧱 chore: Build process, tooling, or auxiliary maintenance changes | 构建/工程依赖/工具
-- 🚨 lint: Fix compiler or linter warnings | 编译/代码检查工具警告
+- 💄 ui: Update UI and style files | 更新 UI
+- 🧱 chore: Build process, tooling, or auxiliary maintenance changes | 构建 / 工程依赖 / 工具
+- 🚨 lint: Fix compiler or linter warnings | 编译 / 代码检查工具警告
 - 🚑️ hotfix: Critical hotfix | 紧急修复
 - ✏️ typo: Fix typos | 错别字
 - 🏷️ type: Add or update types | 增加或更新类型
 - 🛂 passport: Authorization, roles, and permissions work | 授权、身份和权限相关
 - 🦺 val: Add or update validation logic | 验证相关
 - ⚓ hook: Git hook changes | 钩子
-- 🐳 docker: Docker-related changes | Docker容器相关
-- ☸️ k8s: Kubernetes-related changes | Kubernetes相关
+- 🐳 docker: Docker-related changes | Docker 容器相关
+- ☸️ k8s: Kubernetes-related changes | Kubernetes 相关
 - 💫 anim: Add or update animations and transitions | 动画和过渡
 - 👔 logic: Add or update business logic | 业务逻辑
 - 💬 text: Add or update copy, literals, or text content | 文本和文字
 - ⚡️ perf: A change that improves performance | 性能优化
 - 🗃️ db: Database-related changes | 数据库相关
 - 🧵 thread: Multithreading or concurrency changes | 线程
-- 👽️ api: Changes required by external API updates | API相关
+- 👽️ api: Changes required by external API updates | API 相关
 - 🔐 secret: Secrets-related changes | 秘钥
 - 💸 fund: Sponsorship or money-related infrastructure | 资金相关
 - 🚀 deploy: Deployment changes | 部署
-- 🚸 usability: Improve user experience or usability | 增强用户体验/可用性
+- 🚸 usability: Improve user experience or usability | 增强用户体验 / 可用性
 - 🌐 i18n: Internationalization changes | 国际化
 - 🌐 l10n: Localization changes | 本地化
 - 🔀 merge: Merge branch changes | 合并

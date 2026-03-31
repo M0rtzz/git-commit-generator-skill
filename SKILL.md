@@ -25,7 +25,7 @@ Use the Git context above to draft commit messages without executing any state-c
 4. Read [references/commit_types.md](references/commit_types.md) when you need the canonical type and emoji mapping. Choose the single best matching type.
 5. Extract an optional scope only when it improves clarity:
    - If the change is clearly concentrated in one module, component, page, or package, you may use a logical scope such as `ui(navbar)`.
-   - If the change only affects one directory, or only one file was added, removed, renamed, or modified, you may use the directory name or file name as the scope, such as `feat(api/)`, `doc(README.md)`, `remove(legacy.js)`, or `config(eslint.config.js)`.
+   - If the change only affects one directory, or only one file was added, removed, renamed, or modified, you may use the directory name or file name as the scope, such as `feat(utils/)`, `doc(README.md)`, `remove(legacy.js)`, or `config(eslint.config.js)`.
 6. Never run `git commit`, `git add`, `git push`, `git reset`, `git stash`, or any other state-changing Git command.
 7. Return exactly the two output formats below and do not add preambles, explanations, or extra commentary.
 
@@ -75,4 +75,5 @@ Give a title plus bullet points in this format:
 - **Independent subjects**: The one-line subject in Option 1 and the title in Option 2 do not need to be identical if a tighter summary improves clarity.
 - **Language**: Unless the user explicitly asks otherwise, write the commit content in English.
 - **Code formatting**: Wrap code identifiers, file names, variables, and routes such as `userId`, `index.js`, or `/dashboard` in backticks.
-- **Stay factual**: If the available Git context is incomplete or ambiguous, do not invent details. Ask for the missing Git information instead.
+- **Text only**: This skill only drafts commit text and must never trigger `git commit`, `git push`, or any other state-changing command.
+- **Stay factual**: If the available context is incomplete or ambiguous, do not invent details. Clearly ask for the missing Git information instead.

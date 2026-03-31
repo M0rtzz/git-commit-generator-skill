@@ -5,59 +5,59 @@
 - ✨ feat: A new feature | 新功能
 - 🚧 wip: Work in progress | 正在开发中
 - 🐛 fix: A bug fix | Bug 修复
-- 🎨 style: Markup, white-space, formatting, missing semi-colons... | 风格
-- 💡 comment: Comment | 注释
-- 🚚 path: Move or rename resources (e.g.: files, paths, routes) | 移动
+- 🎨 style: Markup, whitespace, formatting, or missing semicolons | 风格
+- 💡 comment: Comment changes | 注释
+- 🚚 path: Move or rename resources, files, paths, or routes | 移动
 - 🔥 remove: Remove files | 移除代码文件
 - ⚰️ bury: Bury dead code | 埋葬无用代码
 - 🔧 config: Add or update configuration files | 配置文件
 - 🍱 asset: Add or update assets | 资源
 - 📸 image: Add or update images | 图像
-- 🔨 script: Add or update the build system | 脚本
-- 💩 poop: Poop | 写了一些屎一样待优化的代码
-- 💄 ui: Updated UI and style files | 更新UI
-- 🧱 chore: Build process or auxiliary tool changes | 构建/工程依赖/工具
+- 🔨 script: Add or update scripts or the build system | 脚本
+- 💩 poop: Low-quality code that needs improvement | 写了一些屎一样待优化的代码
+- 💄 ui: Update UI and style files | 更新UI
+- 🧱 chore: Build process, tooling, or auxiliary maintenance changes | 构建/工程依赖/工具
 - 🚨 lint: Fix compiler or linter warnings | 编译/代码检查工具警告
 - 🚑️ hotfix: Critical hotfix | 紧急修复
 - ✏️ typo: Fix typos | 错别字
 - 🏷️ type: Add or update types | 增加或更新类型
-- 🛂 passport: Work on code related to authorization, roles and permissions | 授权、身份和权限相关
-- 🦺 val: Add or update code related to validation | 验证相关
-- ⚓ hook: Git hook | 钩子
-- 🐳 docker: Docker container | Docker容器相关
-- ☸️ k8s: Kubernetes | Kubernetes相关
+- 🛂 passport: Authorization, roles, and permissions work | 授权、身份和权限相关
+- 🦺 val: Add or update validation logic | 验证相关
+- ⚓ hook: Git hook changes | 钩子
+- 🐳 docker: Docker-related changes | Docker容器相关
+- ☸️ k8s: Kubernetes-related changes | Kubernetes相关
 - 💫 anim: Add or update animations and transitions | 动画和过渡
 - 👔 logic: Add or update business logic | 业务逻辑
-- 💬 text: Add or update text and literals | 文本和文字
-- ⚡️ perf: A code change that improves performance | 性能优化
-- 🗃️ db: Perform database related changes | 数据库相关
-- 🧵 thread: Add or update code related to multithreading or concurrency | 线程
-- 👽️ api: Update code due to external API changes | API相关
-- 🔐 secret: Secret | 秘钥
-- 💸 fund: Add sponsorships or money related infrastructure | 资金相关
-- 🚀 deploy: Deploy stuff | 部署
+- 💬 text: Add or update copy, literals, or text content | 文本和文字
+- ⚡️ perf: A change that improves performance | 性能优化
+- 🗃️ db: Database-related changes | 数据库相关
+- 🧵 thread: Multithreading or concurrency changes | 线程
+- 👽️ api: Changes required by external API updates | API相关
+- 🔐 secret: Secrets-related changes | 秘钥
+- 💸 fund: Sponsorship or money-related infrastructure | 资金相关
+- 🚀 deploy: Deployment changes | 部署
 - 🚸 usability: Improve user experience or usability | 增强用户体验/可用性
-- 🌐 i18n: Internationalization | 国际化
-- 🌐 l10n: Localization | 本地化
-- 🔀 merge: Merge branch | 合并
-- ⏪ revert: Revert | 回退
+- 🌐 i18n: Internationalization changes | 国际化
+- 🌐 l10n: Localization changes | 本地化
+- 🔀 merge: Merge branch changes | 合并
+- ⏪ revert: Revert changes | 回退
 - 🔖 release: Create a release commit | 发行版
-- 📦 build: Build System | 打包构建
-- 🥅 catch: Catch errors | 捕捉错误
-- 💚 fix_ci: Fix CI Build | CI 修复
-- 👷 ci: CI related changes | CI 配置
-- 📈 monitor: Add or update analytics or track code | 分析或跟踪
-- ♻️ refactor: A code change that neither fixes a bug or adds a feature | 代码重构
+- 📦 build: Build system changes | 打包构建
+- 🥅 catch: Add or improve error handling | 捕捉错误
+- 💚 fix_ci: Fix CI build issues | CI 修复
+- 👷 ci: CI-related changes | CI 配置
+- 📈 monitor: Add or update analytics, metrics, or tracking | 分析或跟踪
+- ♻️ refactor: Refactor code without adding a feature or fixing a bug | 代码重构
 - 🔊 add_log: Add or update logs | 添加日志
 - 🔇 rm_log: Remove logs | 移除日志
-- ➕ add_dep: Add dep | 添加依赖
-- ➖ rm_dep: Remove dep | 移除依赖
-- ⬆️ up_dep: Upgrade dep | 升级依赖
-- ⬇️ down_dep: Downgrade dep | 降级依赖
+- ➕ add_dep: Add a dependency | 添加依赖
+- ➖ rm_dep: Remove a dependency | 移除依赖
+- ⬆️ up_dep: Upgrade a dependency | 升级依赖
+- ⬇️ down_dep: Downgrade a dependency | 降级依赖
 - 📌 pin_dep: Pin dependencies to specific versions | 固定依赖版本
-- ✅ test: Adding tests | 测试
-- ⚗️ exp: Perform experiments | 实验
+- ✅ test: Add or update tests | 测试
+- ⚗️ exp: Experimental changes | 实验
 - 🎉 init: Begin a project | 初始化
-- 🙈 ignore: Add or update a .gitignore file | 忽略
-- 📄 license: Add or update license | 证书
-- 📝 doc: Documentation only changes | 文档
+- 🙈 ignore: Add or update a `.gitignore` file | 忽略
+- 📄 license: Add or update a license | 证书
+- 📝 doc: Documentation-only changes | 文档

@@ -1,6 +1,6 @@
 # Git Commit Generator
 
-A Codex skill that inspects local Git changes and drafts commit messages without running `git commit`.
+A Claude Code skill that inspects local Git changes and drafts commit messages without running `git commit`.
 
 ## What It Does
 
@@ -10,20 +10,20 @@ A Codex skill that inspects local Git changes and drafts commit messages without
 
 ## Install
 
-Place this directory in a Codex skills path, for example:
+Place this directory in a Claude Code skills path, for example:
 
 ```text
-${HOME}/.agents/skills/git-commit-generator
+~/.claude/skills/git-commit-generator
 ```
 
 or:
 
 ```text
-<repo>/.agents/skills/git-commit-generator
+<project>/.claude/skills/git-commit-generator
 ```
 
 ## Use
 
-Ask Codex to generate a commit message from the current changes or invoke the skill explicitly as `$git-commit-generator`.
+Invoke the skill directly with `/git-commit-generator` when you want commit message suggestions from the current repository changes.
 
-`SKILL.md` is the runtime instruction file for the agent. This `README.md` is only a short human-facing overview.
+`SKILL.md` is the runtime instruction file Claude Code reads. This `README.md` is only a short human-facing overview.

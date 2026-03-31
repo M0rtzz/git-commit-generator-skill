@@ -1,20 +1,11 @@
 ---
 name: git-commit-generator
-description: Draft commit messages from the current Git changes. Use when the user wants a commit message or commit summary for staged, unstaged, or untracked work without creating a commit.
+description: Use this skill when the user wants a Git commit message, commit summary, or commit body for staged, unstaged, or untracked changes without creating a commit. It inspects local Git state or user-provided diffs and returns commit text only.
 ---
 
 # Git Commit Generator
 
-## Use This Skill When
-
-- The user asks for a commit message, commit summary, or commit description based on the current repository changes.
-- The user provides `git status`, `git diff`, staged, unstaged, or untracked file information and wants it turned into a semantic commit message.
-- The user wants text suggestions, not an actual commit to be created.
-
-## Do Not Use This Skill When
-
-- The user explicitly asks to run `git commit`, `git push`, `git add`, `git reset`, `git stash`, or any other state-changing Git command.
-- The user's main goal is branch management, conflict resolution, history rewriting, release flow, or Git education rather than drafting commit text.
+This skill drafts commit text from repository changes. It is text-only and must never change Git state.
 
 ## Resource Paths
 
@@ -80,9 +71,9 @@ Give a title plus bullet points in this format:
 
 ## Notes
 
+- **Text only**: Never run `git commit`, `git push`, `git add`, `git reset`, `git stash`, or any other state-changing Git command.
 - **Subject limit**: Keep the subject under 100 characters.
 - **Independent subjects**: The one-line subject in Option 1 and the title in Option 2 do not need to be identical if a tighter summary improves clarity.
 - **Language**: Unless the user explicitly asks otherwise, write the commit content in English.
 - **Code formatting**: Wrap code identifiers, file names, variables, and routes such as `userId`, `index.js`, or `/dashboard` in backticks.
-- **Text only**: This skill only drafts commit text and must never trigger `git commit`, `git push`, or any other state-changing command.
 - **Stay factual**: If the available context is incomplete or ambiguous, do not invent details. Clearly ask for the missing Git information instead.

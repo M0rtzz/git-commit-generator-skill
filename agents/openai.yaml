@@ -1,4 +1,0 @@
-interface:
-  display_name: "Git Commit Generator"
-  short_description: "Draft commit messages from the current git diff only."
-  default_prompt: "Use $git-commit-generator to inspect the current git changes and draft standard and detailed commit messages without committing anything."

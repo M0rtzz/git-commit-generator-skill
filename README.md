@@ -1,6 +1,6 @@
 # Git Commit Generator
 
-A Codex skill that inspects local Git changes and drafts commit messages without running `git commit`.
+A Gemini CLI agent skill that inspects local Git changes and drafts commit messages without running `git commit`.
 
 ## What It Does
 
@@ -10,20 +10,36 @@ A Codex skill that inspects local Git changes and drafts commit messages without
 
 ## Install
 
-Place this directory in a Codex skills path, for example:
+Install the skill directly with Gemini CLI:
 
 ```text
-${HOME}/.codex/skills/git-commit-generator
+gemini skills install /path/to/git-commit-generator
 ```
 
-or:
+Link it instead of copying it:
 
 ```text
-<repo>/.codex/skills/git-commit-generator
+gemini skills link /path/to/git-commit-generator
 ```
+
+Install or link it into the current workspace:
+
+```text
+gemini skills install /path/to/git-commit-generator --scope workspace
+gemini skills link /path/to/git-commit-generator --scope workspace
+```
+
+Gemini CLI also discovers skills placed under `.gemini/skills/` or the cross-tool alias `.agents/skills/`.
 
 ## Use
 
-Ask Codex to generate a commit message from the current changes or invoke the skill explicitly as `$git-commit-generator`.
+Ask Gemini naturally, for example:
 
-`SKILL.md` is the runtime instruction file for the agent. This `README.md` is only a short human-facing overview.
+```text
+draft a commit message from the current git changes
+write a detailed commit summary for this diff
+```
+
+Gemini CLI will activate the skill automatically when the request matches the `SKILL.md` description.
+
+`SKILL.md` is the runtime instruction file for the agent. `scripts/` and `references/` contain the bundled resources the skill uses when it is activated.

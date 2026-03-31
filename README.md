@@ -13,13 +13,13 @@ A Codex skill that inspects local Git changes and drafts commit messages without
 Place this directory in a Codex skills path, for example:
 
 ```text
-${HOME}/.agents/skills/git-commit-generator
+${HOME}/.codex/skills/git-commit-generator
 ```
 
 or:
 
 ```text
-<repo>/.agents/skills/git-commit-generator
+<repo>/.codex/skills/git-commit-generator
 ```
 
 ## Use

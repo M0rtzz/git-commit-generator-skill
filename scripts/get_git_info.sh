@@ -65,19 +65,18 @@ printf '\n'
 printSection "GIT DIFF (已跟踪文件)"
 if git rev-parse --verify HEAD >/dev/null 2>&1; then
     # 正常仓库：输出所有已暂存和未暂存的修改
-    git diff HEAD
+    git --no-pager diff HEAD
 else
     # 全新仓库：输出已暂存的文件（如果有的话）
-    git diff --cached
+    git --no-pager diff --cached
 fi
 
 printf '\n'
 printSection "UNTRACKED FILES (未跟踪的新文件)"
 git ls-files --others --exclude-standard | while read -r file; do
     if [ -f "${file}" ]; then
-        git diff --no-index -- /dev/null "${file}" || true
+        git --no-pager diff --no-index -- /dev/null "${file}" || true
     fi
 done
 
 printf '%s\n' "$(repeatChar '=' "$(terminalWidth)")"
-printf "💡 提示: 复制以上完整输出，触发 '使用 git-commit-generator' 即可。\n"

@@ -1,11 +1,11 @@
 ---
-name: git-commit-generator
+name: git-commit-msg-generator
 description: Draft commit messages from the current Git changes. Use when the user wants a commit message or commit summary for staged, unstaged, or untracked work without creating a commit.
 disable-model-invocation: true
 shell: bash
 ---
 
-# Git Commit Generator
+# Git Commit Message Generator
 
 ## Git Context
 

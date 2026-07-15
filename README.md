@@ -1,4 +1,4 @@
-# Git Commit Generator
+# Git Commit Message Generator
 
 A Claude Code skill that inspects local Git changes and drafts commit messages without running `git commit`.
 
@@ -13,17 +13,17 @@ A Claude Code skill that inspects local Git changes and drafts commit messages w
 Place this directory in a Claude Code skills path, for example:
 
 ```text
-~/.claude/skills/git-commit-generator
+~/.claude/skills/git-commit-msg-generator
 ```
 
 or:
 
 ```text
-<project>/.claude/skills/git-commit-generator
+<project>/.claude/skills/git-commit-msg-generator
 ```
 
 ## Use
 
-Invoke the skill directly with `/git-commit-generator` when you want commit message suggestions from the current repository changes.
+Invoke the skill directly with `/git-commit-msg-generator` when you want commit message suggestions from the current repository changes.
 
 `SKILL.md` is the runtime instruction file Claude Code reads. This `README.md` is only a short human-facing overview.

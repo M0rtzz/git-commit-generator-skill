@@ -1,9 +1,9 @@
 ---
-name: git-commit-generator
+name: git-commit-msg-generator
 description: Draft commit messages from the current Git changes. Use when the user wants a commit message or commit summary for staged, unstaged, or untracked work without creating a commit.
 ---
 
-# Git Commit Generator
+# Git Commit Message Generator
 
 ## Use This Skill When
 

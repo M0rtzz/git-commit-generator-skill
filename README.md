@@ -1,4 +1,4 @@
-# Git Commit Generator
+# Git Commit Message Generator
 
 A Codex skill that inspects local Git changes and drafts commit messages without running `git commit`.
 
@@ -13,17 +13,17 @@ A Codex skill that inspects local Git changes and drafts commit messages without
 Place this directory in a Codex skills path, for example:
 
 ```text
-${HOME}/.codex/skills/git-commit-generator
+${HOME}/.codex/skills/git-commit-msg-generator
 ```
 
 or:
 
 ```text
-<repo>/.codex/skills/git-commit-generator
+<repo>/.codex/skills/git-commit-msg-generator
 ```
 
 ## Use
 
-Ask Codex to generate a commit message from the current changes or invoke the skill explicitly as `$git-commit-generator`.
+Ask Codex to generate a commit message from the current changes or invoke the skill explicitly as `$git-commit-msg-generator`.
 
 `SKILL.md` is the runtime instruction file for the agent. This `README.md` is only a short human-facing overview.

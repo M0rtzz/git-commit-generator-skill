@@ -1,9 +1,9 @@
 ---
-name: git-commit-generator
+name: git-commit-msg-generator
 description: Use this skill when the user wants a Git commit message, commit summary, or commit body for staged, unstaged, or untracked changes without creating a commit. It inspects local Git state or user-provided diffs and returns commit text only.
 ---
 
-# Git Commit Generator
+# Git Commit Message Generator
 
 This skill drafts commit text from repository changes. It is text-only and must never change Git state.
 

@@ -1,4 +1,4 @@
-# Git Commit Generator
+# Git Commit Message Generator
 
 A Gemini CLI agent skill that inspects local Git changes and drafts commit messages without running `git commit`.
 
@@ -13,20 +13,20 @@ A Gemini CLI agent skill that inspects local Git changes and drafts commit messa
 Install the skill directly with Gemini CLI:
 
 ```text
-gemini skills install /path/to/git-commit-generator
+gemini skills install /path/to/git-commit-msg-generator
 ```
 
 Link it instead of copying it:
 
 ```text
-gemini skills link /path/to/git-commit-generator
+gemini skills link /path/to/git-commit-msg-generator
 ```
 
 Install or link it into the current workspace:
 
 ```text
-gemini skills install /path/to/git-commit-generator --scope workspace
-gemini skills link /path/to/git-commit-generator --scope workspace
+gemini skills install /path/to/git-commit-msg-generator --scope workspace
+gemini skills link /path/to/git-commit-msg-generator --scope workspace
 ```
 
 Gemini CLI also discovers skills placed under `.gemini/skills/` or the cross-tool alias `.agents/skills/`.
